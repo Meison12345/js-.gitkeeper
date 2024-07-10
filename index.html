@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center feedback-form__container">
+        <form method="POST" action='mail.php' class="center feedback-form">
+            <div class="feedback-form__group">
+                <input type="text" name="name" class="feedback-form__name" placeholder="Введите имя">
+            </div>
+            <div class="feedback-form__group">
+                <input type="email" name="email" class="feedback-form__email" placeholder="Введите email">
+            </div>
+            <div class="feedback-form__group">
+                <input type="text" name="message" class="feedback-form__text" placeholder="Введите сообщение">
+            </div>
+            <input type="submit" value="Отправить" class="feedback-form__submit">
+        </form>
+        <p class="feedback-msg not-visible">Спасибо за ваше сообщение!</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
