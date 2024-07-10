@@ -1,0 +1,47 @@
+:root {
+	--purple: rgba(132, 24, 68, 1);
+}
+
+@media screen and (min-width:768px) {
+	.prefooter-nav-list__element-link:hover {
+		background: var(--purple);
+		color: white;
+	}
+
+	.news--item:hover .news--item-title {
+		color: var(--purple);
+	}
+
+	.news--item-btn:hover {
+		color: white;
+		background: var(--purple);
+	}
+
+	.news--item-btn:hover .news--item-title {
+		color: var(--purple);
+	}
+
+	.news--item-btn:hover svg path,
+	.prefooter-nav-list__element-link:hover svg path {
+		fill: white;
+	}
+}
+
+
+//ПОЧЕМУ НА 1000 РАБОТАЕТ, А НА 768 НЕТ
+// @media screen and (min-width: 1000px) {
+// 	.prefooter-nav-list__element-link:hover {
+// 		background: var(--purple);
+// 		color: white;
+// 	}
+
+// .news--item:hover .news--item-title {
+// 	color: var(--purple);
+// }
+
+// 	.news--item-btn:hover {
+// 		color: white;
+// 		background: var(--purple);
+// 	}
+
+// }
